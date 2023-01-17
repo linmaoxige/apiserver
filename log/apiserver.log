@@ -1,0 +1,10 @@
+{"level":"INFO","timestamp":"2023-01-16 22:21:54.129","file":"apiserver/main.go:53","msg":"Start to listening the incoming requests on http address: :6663"}
+{"level":"INFO","timestamp":"2023-01-16 22:21:54.130","file":"apiserver/main.go:64","msg":"the url is http://192.168.187.150:6663/sd/health"}
+{"level":"INFO","timestamp":"2023-01-16 22:21:54.135","file":"apiserver/main.go:50","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2023-01-16 22:22:58.771","file":"config/config.go:70","msg":"Config file changed: /home/linmao/Project/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2023-01-16 22:22:58.772","file":"config/config.go:70","msg":"Config file changed: /home/linmao/Project/apiserver/conf/config.yaml"}
+{"level":"INFO","timestamp":"2023-01-16 22:23:30.222","file":"apiserver/main.go:64","msg":"the url is http://192.168.187.150:8080/sd/health"}
+{"level":"INFO","timestamp":"2023-01-16 22:23:30.221","file":"apiserver/main.go:53","msg":"Start to listening the incoming requests on http address: :8080"}
+{"level":"INFO","timestamp":"2023-01-16 22:23:30.229","file":"apiserver/main.go:71","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2023-01-16 22:23:31.231","file":"apiserver/main.go:64","msg":"the url is http://192.168.187.150:8080/sd/health"}
+{"level":"INFO","timestamp":"2023-01-16 22:23:31.236","file":"apiserver/main.go:50","msg":"The router has been deployed successfully."}

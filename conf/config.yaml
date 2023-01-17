@@ -1,0 +1,14 @@
+runmode: debug
+addr: :8080
+name: apiserver
+url: http://192.168.187.150:8080
+max_ping_count: 10
+log:
+  writers: file,stdout
+  logger_level: DEBUG
+  logger_file: log/apiserver.log
+  log_format_text: false
+  rollingPolicy: size
+  log_rotate_date: 1
+  log_rotate_size: 1024
+  log_backup_count: 7
