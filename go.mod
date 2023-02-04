@@ -43,6 +43,7 @@ require (
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.14.0
+	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 	github.com/ugorji/go/codec v1.2.7 // indirect
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
 	golang.org/x/net v0.4.0 // indirect
