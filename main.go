@@ -4,6 +4,7 @@ import (
 	"apiserver/config"
 	"apiserver/model"
 	"apiserver/router"
+	"apiserver/router/middleware"
 	"errors"
 
 	"net/http"
@@ -38,14 +39,15 @@ func main() {
 	g := gin.New()
 
 	// gin middlewares
-	middlewares := []gin.HandlerFunc{}
+	// middlewares := []gin.HandlerFunc{}
 
 	// Routes
 	router.Load(
 		// Cores.
 		g,
 		// Middlewares.
-		middlewares...,
+		middleware.RequestId(),
+		middleware.Logger(),
 	)
 
 	// Ping the server to make sure the router is working.
